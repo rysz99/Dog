@@ -1,0 +1,161 @@
+body 
+{
+    color: #fff;
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, #footer
+{
+    background-color: darkblue;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#footer
+{
+    margin-bottom: 0px;
+}
+
+#content
+{
+    background-color: #222222;
+    padding: 12px;
+    text-align: justify;
+    width: 976px;
+    letter-spacing: 3px;
+}
+
+p#intro
+{
+    line-height: 200%;
+    color: darkgreen;
+    font-weight: 400;
+}
+
+p
+{
+    line-height: 200%;
+}
+
+#spis a
+{
+    color: darkmagenta;
+}
+
+p a:link, 
+p a:visited,
+p a:active
+{
+    color: magenta;
+    text-decoration: none;
+}
+
+a:hover, 
+#spis a:hover, 
+p a:hover
+{
+    color: blue;
+    font-weight: 900;
+}
+
+#spis
+{
+    background-color: #555555;
+    padding: 12px 0px;
+    margin-top: 55px;
+}
+
+a
+{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;    
+}
+
+ul
+{
+    margin-top: 80px;
+}
+
+ul.links
+{
+    background-color: #555555;
+    padding: 8px 12px;
+    list-style-type: none;
+}
+
+ul.links > li::before
+{
+    content: "📺";
+    margin-right: 15px;
+}
+
+ul.links > li a
+{
+    color: darkmagenta;
+}
+
+ol
+{
+    padding-left: 376px;
+    width: 600px;
+    list-style-type: decimal-leading-zero;
+    color: darkmagenta;
+    font-weight: 900;
+}
+
+ol > li, ul > li
+{
+    margin: 22px 0px;
+}
+
+h2
+{
+    margin: 145px auto 30px auto;
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    border-radius: 4px;
+    border: 2px solid white;
+    width: 400px;
+    text-transform: uppercase;
+}
+
+img
+{
+    opacity: 70%;
+    display: block;
+    float: left;
+    width: 219px;
+    margin: 0px 12.5px;
+}
+
+#clear
+{
+    clear: both;
+}
+
+img:hover
+{
+    opacity: 100%;
+}
+
+#post-scriptum
+{
+    color: orangered;
+    font-weight: 900;
+}
