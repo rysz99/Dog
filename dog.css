@@ -51,11 +51,6 @@ p
     line-height: 200%;
 }
 
-#spis a
-{
-    color: darkmagenta;
-}
-
 p a:link, 
 p a:visited,
 p a:active
@@ -102,11 +97,6 @@ ul.links > li::before
 {
     content: "📺";
     margin-right: 15px;
-}
-
-ul.links > li a
-{
-    color: darkmagenta;
 }
 
 ol
